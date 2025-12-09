@@ -1,4 +1,3 @@
-```bash
 ## What is WinBox?
 
 WinBox is MikroTik’s native configuration utility used to manage RouterBOARD devices.
