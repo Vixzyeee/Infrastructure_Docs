@@ -31,6 +31,7 @@ Learn how to connect to a MikroTik RouterBOARD using:
 - MAC connection works even without an IP address.
 - SSH requires the RouterBOARD and PC to have valid IP addresses in the same subnet.
 - SSH cannot be used until the router has an assigned IP on the interface being accessed.
+- SSH operates on TCP port 22 by default and can be managed or reconfigured through `/ip service`.
 
 
 Copyright © Christopher Aldrinovito 2025. All rights reserved.     |     Personal use only
