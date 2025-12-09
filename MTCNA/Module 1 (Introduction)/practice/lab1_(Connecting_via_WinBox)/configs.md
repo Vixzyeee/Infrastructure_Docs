@@ -43,6 +43,9 @@ ping 192.168.88.2
 ping <IP Address of RouterBOARD-1>
 ping 192.168.88.1
 
+
+# Lab Testing
+
 ## Connect to <RouterBOARD-1> via IP Address
 
 - Connect to: <IP Address of RouterBOARD-1>
