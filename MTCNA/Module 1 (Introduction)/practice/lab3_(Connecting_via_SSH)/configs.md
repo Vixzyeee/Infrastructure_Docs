@@ -48,5 +48,5 @@ ping 192.168.88.1
 
 ## Connect to <RouterBOARD-1> via SSH
 
-SSH <Username of RouterBOARD-1>@<IP Address of RouterBOARD-1>
-SSH admin@192.168.88.1
+ssh <Username of RouterBOARD-1>@<IP Address of RouterBOARD-1>
+ssh admin@192.168.88.1
