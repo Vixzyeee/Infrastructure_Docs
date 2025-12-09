@@ -48,10 +48,5 @@ ping 192.168.88.1
 
 ## Connect to <RouterBOARD-1> via Telnet
 
-- Connect to: <IP Address of RouterBOARD-1>
-    - Example: 192.168.88.1
-- Login: <Username of RouterBOARD-1>
-    - Example: admin
-- Password: <Password of RouterBOARD-1>
-    - Example: (leave blank if default)
-
+telnet <IP Address of RouterBOARD-1>
+telnet 192.168.88.1
