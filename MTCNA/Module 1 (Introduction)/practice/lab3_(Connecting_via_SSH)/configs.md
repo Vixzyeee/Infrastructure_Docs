@@ -50,3 +50,8 @@ ping 192.168.88.1
 
 ssh <Username of RouterBOARD-1>@<IP Address of RouterBOARD-1>
 ssh admin@192.168.88.1
+
+or
+
+ssh -p <Default Port of SSH> <Username of RouterBOARD-1>@<IP Address of RouterBOARD-1>
+ssh -p 22 admin@192.168.88.1
