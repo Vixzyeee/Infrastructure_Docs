@@ -4,6 +4,7 @@
 Telnet is a legacy remote-access protocol that provides command-line access to network devices over a TCP connection.  
 It operates entirely in plaintext and offers no encryption, authentication hardening, or data integrity protection.  
 Because of these limitations, Telnet is considered insecure and is used today only for lab environments, testing, or accessing older devices that do not support SSH.
+Telnet operates strictly at Layer 3 and requires the device to have an assigned IP address before a connection can be established.
 
 ## Understanding Connection Methods
 
