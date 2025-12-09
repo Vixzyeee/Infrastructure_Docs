@@ -32,7 +32,6 @@ Learn how to connect to a MikroTik RouterBOARD using:
 - Telnet requires the RouterBOARD and PC to have valid IP addresses in the same subnet.
 - Telnet cannot be used until the router has an assigned IP on the interface being accessed.
 - By default, Telnet operates on TCP port 23, and the service can be managed or reconfigured through `/ip service`.
-- Telnet is included in this lab to highlight the contrast between unsecured access (Telnet) and secure access (SSH), and to show why SSH has replaced Telnet in modern deployments.
 
 
 Copyright © Christopher Aldrinovito 2025. All rights reserved.     |     Personal use only
