@@ -1,3 +1,4 @@
+```bash
 # Lab 2: Connecting to MikroTik via Telnet
 
 ## Objective
