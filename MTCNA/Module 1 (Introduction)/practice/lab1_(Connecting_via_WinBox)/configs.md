@@ -1,6 +1,4 @@
 ```bash
-# RouterBOARD-1 Configuration
-
 ## Connect to <RouterBOARD-1> via MAC Address
 
 - Connect to: <MAC Address of RouterBOARD-1>
@@ -9,6 +7,9 @@
     - Example: admin
 - Password: <Password of RouterBOARD-1>
     - Example: (leave blank if default)
+
+
+# RouterBOARD-1 Configuration
 
 ## Configure the IP Address on <RouterBOARD-1 to PC-1>
 
