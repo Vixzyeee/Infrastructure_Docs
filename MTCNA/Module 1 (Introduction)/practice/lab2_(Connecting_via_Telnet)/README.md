@@ -29,7 +29,8 @@ Learn how to connect to a MikroTik RouterBOARD using:
 
 ## Notes
 - MAC connection works even without an IP address.
-- Telnet connection requires RouterBOARD and PC to be in the same subnet.
+- Telnet requires the RouterBOARD and PC to have valid IP addresses in the same subnet.
+- Telnet cannot be used until the router has an assigned IP on the interface being accessed.
 
 
 Copyright © Christopher Aldrinovito 2025. All rights reserved.     |     Personal use only
