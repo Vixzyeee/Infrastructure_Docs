@@ -15,6 +15,7 @@
 /ip address add address=<RouterBOARD-1 IP to PC-1> interface=<RouterBOARD-1 Interface to PC-1>
 /ip address add address=192.168.88.1/24 interface=ether5
 
+
 # PC-1 Configuration
 
 ## Configure the static IP Address on <PC-1>
@@ -27,6 +28,7 @@
     - Example: (leave blank — only required when accessing networks outside the local subnet)
 - DNS:
     - Example: (leave blank — only required when accessing networks outside the local subnet)
+
 
 # RouterBOARD-1 and PC-1 Testing
 
