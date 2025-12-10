@@ -8,6 +8,20 @@ The private key stays on the client.
 The public key is placed on the device.  
 If they match, access is granted without typing a password.
 
+## Public Key vs Private Key
+
+A **public key** is the part you are allowed to share.  
+It is stored on the device you want to access. Anyone can see it; it does not compromise security.
+
+A **private key** is the part you never share.  
+It stays on the client machine and is used to prove your identity.  
+If someone gets your private key, they can impersonate you.
+
+In short:  
+- Public key = “Lock” placed on the device  
+- Private key = “Key” you keep locally  
+- SSH authenticates you by verifying that your private key matches the public key stored on the server
+
 ## Why Use SSH Keys?
 
 - Passwords can be guessed; 2048/4096-bit keys realistically cannot.  
