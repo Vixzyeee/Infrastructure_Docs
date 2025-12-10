@@ -3,8 +3,7 @@
 
 ## Objective
 Learn how to connect to a MikroTik RouterBOARD using:
-1. MAC Address
-2. Telnet
+1. Telnet
 
 ## Requirements
 - WinBox installed
