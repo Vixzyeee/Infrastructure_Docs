@@ -1,4 +1,4 @@
-```python
+```markdown
 # Python Learning Journey
 
 This repository documents my year-long journey of learning Python from foundational concepts to automation and backend fundamentals.
