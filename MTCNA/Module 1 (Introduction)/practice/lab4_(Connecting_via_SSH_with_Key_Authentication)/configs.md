@@ -40,6 +40,7 @@ or
 ssh-keygen -t <SSH Key Types> -b <RSA Key Size> -C <Comment of Key Authentication>
 ssh-keygen -t rsa -b 4096 -C "vixzye-ops@DevOps"
 
+
 # RouterBOARD-1 and PC-1 Testing
 
 ## Ping <PC-1> from <RouterBOARD-1> Terminal
