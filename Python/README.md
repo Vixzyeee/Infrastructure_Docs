@@ -1,7 +1,7 @@
 # Python Learning Journey
 
-This repository contains my structured learning path for Python, starting from foundational concepts and progressing toward automation, scripting, and backend fundamentals. 
-It includes notes, exercises, and small projects designed to develop strong problem-solving skills and practical programming experience.
+- This repository contains my structured learning path for Python, starting from foundational concepts and progressing toward automation, scripting, and backend fundamentals. 
+- It includes notes, exercises, and small projects designed to develop strong problem-solving skills and practical programming experience.
 
 ---
 
