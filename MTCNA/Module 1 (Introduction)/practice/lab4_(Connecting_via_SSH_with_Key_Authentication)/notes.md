@@ -22,6 +22,25 @@ In short:
 - Private key = “Key” you keep locally  
 - SSH authenticates you by verifying that your private key matches the public key stored on the server
 
+## Key File Formats
+
+When generating SSH keys, two files are created:
+
+**Public Key (`.pub`)**  
+- Always ends with `.pub`.  
+- This is the key you upload to the device.  
+- Safe to share.  
+- Examples: `id_ed25519.pub`, `id_rsa.pub`
+
+**Private Key (no extension)**  
+- Has no `.pub` extension.  
+- Stays on the client and must never be shared.  
+- Used by the SSH client to prove your identity.  
+- Examples: `id_ed25519`, `id_rsa`
+
+The router must have the **public key**, and the client must keep the **private key**.  
+Authentication only succeeds when both match.
+
 ## Why Use SSH Keys?
 
 - Passwords can be guessed; 2048/4096-bit keys realistically cannot.  
