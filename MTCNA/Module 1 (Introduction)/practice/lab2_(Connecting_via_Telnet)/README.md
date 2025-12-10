@@ -18,7 +18,6 @@ Learn how to connect to a MikroTik RouterBOARD using:
   - Example: eth0 (PC-1) → ether5 (RouterBOARD-1)
 
 ## What You Will Do
-- Connect to RouterBOARD using MAC Address
 - Configure IP on RouterBOARD and PC
 - Test connectivity using ping
 - Connect to RouterBOARD using Telnet
@@ -27,7 +26,6 @@ Learn how to connect to a MikroTik RouterBOARD using:
 - **configs.md** — Complete step-by-step configuration guide
 
 ## Notes
-- MAC connection works even without an IP address.
 - Telnet requires the RouterBOARD and PC to have valid IP addresses in the same subnet.
 - Telnet cannot be used until the router has an assigned IP on the interface being accessed.
 - By default, Telnet operates on TCP port 23, and the service can be managed or reconfigured through `/ip service`.
