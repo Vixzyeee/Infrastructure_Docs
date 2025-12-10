@@ -14,11 +14,6 @@
 
 ## Configure the Key Authentication on <PC-1>
 
-ssh-keygen -t <SSH Key Types> -C <Comment of Key Authentication>
-ssh-keygen -t ed25519 -C "vixzye-ops@DevOps"
-
-or
-
 ssh-keygen -t <SSH Key Types> -b <RSA Key Size> -C <Comment of Key Authentication>
 ssh-keygen -t rsa -b 4096 -C "vixzye-ops@DevOps"
 
@@ -27,14 +22,16 @@ ssh-keygen -t rsa -b 4096 -C "vixzye-ops@DevOps"
 scp <Source .pub Key Authentication File> <Username of RouterBOARD-1>@<IP Address of RouterBOARD-1>:<Location of RouterBOARD-1>
 scp /home/vixzye-ops/.ssh/id_rsa.pub admin@192.168.88.1:/
 
-## Connect to <RouterBOARD-1> via MAC Address
+## ## Configure the SSH Client config File on <PC-1>
 
-- Connect to: <MAC Address of RouterBOARD-1>
-    - Example: 00:0C:42:FA:60:FC
-- Login: <Username of RouterBOARD-1>
+- Host: <IP Address of RouterBOARD-1>
+    - Example: 192.168.88.1
+- User: <Username of RouterBOARD-1>
     - Example: admin
-- Password: <Password of RouterBOARD-1>
-    - Example: (leave blank if default)
+
+## Check loaded SSH Private Keys in ssh-agent
+
+ssh-add -l
 
 
 # RouterBOARD-1 Configuration
