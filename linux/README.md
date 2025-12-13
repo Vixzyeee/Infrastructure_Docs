@@ -13,7 +13,7 @@ focused on system administration, troubleshooting, and automation.
 - Package management
 - Networking fundamentals
 - Storage and LVM
-- systemd and services
+- Systemd and Services
 - Logging and troubleshooting
 - Bash scripting
 - Basic security hardening
