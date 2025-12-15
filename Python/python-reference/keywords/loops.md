@@ -29,7 +29,6 @@ for i in [1, 2, 3]:
 ---
 
 ## while
-
 **Purpose:** Execute a block of code repeatedly while a condition is True.
 
 ```python
@@ -56,7 +55,6 @@ while count < 3:
 ---
 
 ## break
-
 **Purpose:** Exit the nearest enclosing loop immediately.
 
 ```python
@@ -82,7 +80,6 @@ for i in range(5):
 ---
 
 ## continue
-
 **Purpose:** Skip the current iteration and continue with the next one.
 
 ```python
@@ -109,7 +106,6 @@ for i in range(5):
 ---
 
 ## pass
-
 **Purpose:** Act as a placeholder where a statement is syntactically required.
 
 ```python
