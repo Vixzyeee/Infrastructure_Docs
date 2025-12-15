@@ -1,4 +1,4 @@
-# Conditional and Decision Making Keywords
+# Conditional Keywords
 
 ## What is this?
 Conditional keywords are used to make decisions in Python.
