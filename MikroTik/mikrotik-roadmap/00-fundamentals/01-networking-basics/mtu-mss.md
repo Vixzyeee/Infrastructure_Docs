@@ -1,13 +1,11 @@
 # MTU and MSS
 
 ## What is this
-MTU defines maximum frame size.
-
+MTU defines maximum frame size.<br>
 MSS defines TCP payload size.
 
 ## Why it matters in MikroTik
-VPNs, tunnels, and PPP links often break due to MTU issues.
-
+VPNs, tunnels, and PPP links often break due to MTU issues.<br>
 MikroTik will forward broken packets unless told otherwise.
 
 ## Key concepts

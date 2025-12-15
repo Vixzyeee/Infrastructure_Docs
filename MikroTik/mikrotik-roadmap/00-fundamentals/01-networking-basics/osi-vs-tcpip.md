@@ -1,10 +1,8 @@
 # OSI vs TCP/IP
 
 ## What is this
-OSI and TCP/IP are conceptual models that describe how data moves from an application to the network and back.
-
-OSI has 7 layers, TCP/IP simplifies them into 4 layers.
-
+OSI and TCP/IP are conceptual models that describe how data moves from an application to the network and back.<br>
+OSI has 7 layers, TCP/IP simplifies them into 4 layers.<br>
 They are not configurations. They are mental models.
 
 ## Why it matters in MikroTik
@@ -28,10 +26,8 @@ If you don’t know the layer, you debug the wrong menu.
 - Debugging from Winbox menus instead of packet flow
 
 ## Real-world example
-Internet down because wrong MTU.
-
-People check firewall rules.
-
+Internet down because wrong MTU.<br>
+People check firewall rules.<br>
 Actual issue: Layer 2/3 mismatch, not firewall.
 
 ## Related topics

@@ -1,8 +1,7 @@
 # IP Addressing
 
 ## What is this
-IP addressing defines how devices identify themselves and communicate on a network.
-
+IP addressing defines how devices identify themselves and communicate on a network.<br>
 Includes IPv4, subnet mask, gateway, and DNS.
 
 ## Why it matters in MikroTik
@@ -27,8 +26,7 @@ Wrong IP design = unstable network.
 - Forgetting IP scope when routing
 
 ## Real-world example
-Two WANs with same subnet cause routing ambiguity.
-
+Two WANs with same subnet cause routing ambiguity.<br>
 Router chooses wrong exit path.
 
 ## Related topics

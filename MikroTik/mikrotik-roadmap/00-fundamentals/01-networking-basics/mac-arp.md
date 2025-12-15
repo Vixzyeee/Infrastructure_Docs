@@ -1,13 +1,11 @@
 # MAC Address and ARP
 
 ## What is this
-MAC identifies devices at Layer 2.
-
+MAC identifies devices at Layer 2.<br>
 ARP maps IP addresses to MAC addresses.
 
 ## Why it matters in MikroTik
-MikroTik bridges and routers rely heavily on ARP behavior.
-
+MikroTik bridges and routers rely heavily on ARP behavior.<br>
 Firewall, DHCP, and routing all depend on correct ARP resolution.
 
 ## Key concepts
