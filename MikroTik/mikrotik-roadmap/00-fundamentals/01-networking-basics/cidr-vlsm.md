@@ -2,10 +2,12 @@
 
 ## What is this
 CIDR removes class-based IP limitations.
+
 VLSM allows variable subnet sizes based on need.
 
 ## Why it matters in MikroTik
 Routing decisions depend on prefix length.
+
 Longest prefix match decides traffic flow.
 
 Bad CIDR design breaks routing logic.

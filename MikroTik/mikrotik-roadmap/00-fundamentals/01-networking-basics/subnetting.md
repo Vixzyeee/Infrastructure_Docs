@@ -2,6 +2,7 @@
 
 ## What is this
 Subnetting divides a network into smaller logical networks.
+
 It controls broadcast domain size and routing behavior.
 
 ## Why it matters in MikroTik

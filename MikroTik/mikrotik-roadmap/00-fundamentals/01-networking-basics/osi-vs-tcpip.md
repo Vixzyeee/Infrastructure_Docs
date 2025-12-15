@@ -2,6 +2,7 @@
 
 ## What is this
 OSI and TCP/IP are conceptual models that describe how data moves from an application to the network and back.
+
 OSI has 7 layers, TCP/IP simplifies them into 4 layers.
 
 They are not configurations. They are mental models.
@@ -28,7 +29,9 @@ If you don’t know the layer, you debug the wrong menu.
 
 ## Real-world example
 Internet down because wrong MTU.
+
 People check firewall rules.
+
 Actual issue: Layer 2/3 mismatch, not firewall.
 
 ## Related topics

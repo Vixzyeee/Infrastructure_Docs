@@ -2,6 +2,7 @@
 
 ## What is this
 IP addressing defines how devices identify themselves and communicate on a network.
+
 Includes IPv4, subnet mask, gateway, and DNS.
 
 ## Why it matters in MikroTik
@@ -27,6 +28,7 @@ Wrong IP design = unstable network.
 
 ## Real-world example
 Two WANs with same subnet cause routing ambiguity.
+
 Router chooses wrong exit path.
 
 ## Related topics
