@@ -14,11 +14,12 @@ x = 10
 
 if x > 5:
     print("greater than five")
+```
 Output:
 
-text
-Copy code
+```text
 greater than five
+```
 Use cases:
 
 Basic decision making
@@ -33,22 +34,22 @@ Condition must evaluate to a boolean value
 
 Code block runs only when condition is True
 
-elif
-Purpose: Check additional conditions when previous if or elif conditions are False.
+## elif
+**Purpose:** Check additional conditions when previous if or elif conditions are False.
 
-python
-Copy code
+```python
 x = 10
 
 if x < 5:
     print("small")
 elif x < 15:
     print("medium")
+```
 Output:
 
-text
-Copy code
+```text
 medium
+```
 Use cases:
 
 Handling multiple decision branches
@@ -63,11 +64,10 @@ Evaluated top-down
 
 First matching condition stops further checks
 
-else
-Purpose: Execute a block of code when all previous conditions are False.
+## else
+**Purpose:** Execute a block of code when all previous conditions are False.
 
-python
-Copy code
+```python
 x = 10
 
 if x < 5:
@@ -76,11 +76,12 @@ elif x < 8:
     print("medium")
 else:
     print("large")
+```
 Output:
 
-text
-Copy code
+```text
 large
+```
 Use cases:
 
 Default or fallback behavior
@@ -96,18 +97,18 @@ Must be the last block in a conditional chain
 Nested Conditionals
 Purpose: Use conditionals inside other conditionals for more complex logic.
 
-python
-Copy code
+```python
 x = 10
 
 if x > 0:
     if x % 2 == 0:
         print("positive even number")
+```
 Output:
 
-text
-Copy code
+```text
 positive even number
+```
 Use cases:
 
 Multi-level decision logic
@@ -123,16 +124,16 @@ Prefer elif for readability
 Conditional Expressions (Ternary)
 Purpose: Write simple conditional logic in a single line.
 
-python
-Copy code
+```python
 x = 10
 result = "big" if x > 5 else "small"
 print(result)
+```
 Output:
 
-text
-Copy code
+```text
 big
+```
 Use cases:
 
 Simple value assignment based on condition
@@ -148,17 +149,17 @@ Avoid chaining for readability
 Boolean Evaluation in Conditionals
 Purpose: Understand how values are evaluated as True or False.
 
-python
-Copy code
+```python
 if []:
     print("not empty")
 else:
     print("empty")
+```
 Output:
 
-text
-Copy code
+```text
 empty
+```
 Use cases:
 
 Checking empty lists, strings, or collections
