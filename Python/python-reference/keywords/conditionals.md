@@ -1,7 +1,7 @@
 # Conditional and Decision Making Keywords
 
 ## What is this?
-Conditional keywords are used to make decisions in Python.
+Conditional keywords are used to make decisions in Python.<br>
 They control which block of code is executed based on conditions.
 
 ---
@@ -22,16 +22,13 @@ greater than five
 ```
 Use cases:
 
-Basic decision making
-
-Input validation
-
+Basic decision making<br>
+Input validation<br>
 Feature toggles
 
 Notes:
 
-Condition must evaluate to a boolean value
-
+Condition must evaluate to a boolean value<br>
 Code block runs only when condition is True
 
 ## elif
@@ -52,16 +49,13 @@ medium
 ```
 Use cases:
 
-Handling multiple decision branches
-
+Handling multiple decision branches<br>
 Replacing nested if statements
 
 Notes:
 
-Can appear multiple times
-
-Evaluated top-down
-
+Can appear multiple times<br>
+Evaluated top-down<br>
 First matching condition stops further checks
 
 ## else
@@ -84,18 +78,16 @@ large
 ```
 Use cases:
 
-Default or fallback behavior
-
+Default or fallback behavior<br>
 Handling unexpected or remaining cases
 
 Notes:
 
-Optional
-
+Optional<br>
 Must be the last block in a conditional chain
 
-Nested Conditionals
-Purpose: Use conditionals inside other conditionals for more complex logic.
+## Nested Conditionals
+**Purpose:** Use conditionals inside other conditionals for more complex logic.
 
 ```python
 x = 10
@@ -111,18 +103,16 @@ positive even number
 ```
 Use cases:
 
-Multi-level decision logic
-
+Multi-level decision logic<br>
 Complex validation rules
 
 Notes:
 
-Avoid deep nesting when possible
-
+Avoid deep nesting when possible<br>
 Prefer elif for readability
 
-Conditional Expressions (Ternary)
-Purpose: Write simple conditional logic in a single line.
+## Conditional Expressions (Ternary)
+**Purpose:** Write simple conditional logic in a single line.
 
 ```python
 x = 10
@@ -136,18 +126,16 @@ big
 ```
 Use cases:
 
-Simple value assignment based on condition
-
+Simple value assignment based on condition<br>
 Cleaner alternative to short if-else blocks
 
 Notes:
 
-Use only for simple conditions
-
+Use only for simple conditions<br>
 Avoid chaining for readability
 
-Boolean Evaluation in Conditionals
-Purpose: Understand how values are evaluated as True or False.
+## Boolean Evaluation in Conditionals
+**Purpose:** Understand how values are evaluated as True or False.
 
 ```python
 if []:
@@ -162,12 +150,10 @@ empty
 ```
 Use cases:
 
-Checking empty lists, strings, or collections
-
+Checking empty lists, strings, or collections<br>
 Simplifying conditional expressions
 
 Notes:
 
-Empty values evaluate to False
-
+Empty values evaluate to False<br>
 Non-empty values evaluate to True
