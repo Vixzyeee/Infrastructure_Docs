@@ -149,7 +149,9 @@ big
 **Purpose:** Understand how values are evaluated as True or False.
 
 ```python
-if []:
+items = []
+
+if items:
     print("not empty")
 else:
     print("empty")
