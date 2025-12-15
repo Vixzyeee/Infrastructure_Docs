@@ -15,21 +15,23 @@ x = 10
 if x > 5:
     print("greater than five")
 ```
-Output:
+**Output:**
 
 ```text
 greater than five
 ```
-Use cases:
+**Use cases:**
 
-Basic decision making<br>
-Input validation<br>
-Feature toggles
+- Basic decision making
+- Input validation
+- Feature toggles
 
-Notes:
+**Notes:**
 
-Condition must evaluate to a boolean value<br>
-Code block runs only when condition is True
+- Condition must evaluate to a boolean value
+- Code block runs only when condition is True
+
+---
 
 ## elif
 **Purpose:** Check additional conditions when previous if or elif conditions are False.
@@ -42,21 +44,23 @@ if x < 5:
 elif x < 15:
     print("medium")
 ```
-Output:
+**Output:**
 
 ```text
 medium
 ```
-Use cases:
+**Use cases:**
 
-Handling multiple decision branches<br>
-Replacing nested if statements
+- Handling multiple decision branches
+- Replacing nested if statements
 
-Notes:
+**Notes:**
 
-Can appear multiple times<br>
-Evaluated top-down<br>
-First matching condition stops further checks
+- Can appear multiple times
+- Evaluated top-down
+- First matching condition stops further checks
+
+---
 
 ## else
 **Purpose:** Execute a block of code when all previous conditions are False.
@@ -71,20 +75,22 @@ elif x < 8:
 else:
     print("large")
 ```
-Output:
+**Output:**
 
 ```text
 large
 ```
-Use cases:
+**Use cases:**
 
-Default or fallback behavior<br>
-Handling unexpected or remaining cases
+- Default or fallback behavior
+- Handling unexpected or remaining cases
 
-Notes:
+**Notes:**
 
-Optional<br>
-Must be the last block in a conditional chain
+- Optional
+- Must be the last block in a conditional chain
+
+---
 
 ## Nested Conditionals
 **Purpose:** Use conditionals inside other conditionals for more complex logic.
@@ -96,20 +102,22 @@ if x > 0:
     if x % 2 == 0:
         print("positive even number")
 ```
-Output:
+**Output:**
 
 ```text
 positive even number
 ```
-Use cases:
+**Use cases:**
 
-Multi-level decision logic<br>
-Complex validation rules
+- Multi-level decision logic
+- Complex validation rules
 
-Notes:
+**Notes:**
 
-Avoid deep nesting when possible<br>
-Prefer elif for readability
+- Avoid deep nesting when possible
+- Prefer elif for readability
+
+---
 
 ## Conditional Expressions (Ternary)
 **Purpose:** Write simple conditional logic in a single line.
@@ -119,20 +127,22 @@ x = 10
 result = "big" if x > 5 else "small"
 print(result)
 ```
-Output:
+**Output:**
 
 ```text
 big
 ```
-Use cases:
+**Use cases:**
 
-Simple value assignment based on condition<br>
-Cleaner alternative to short if-else blocks
+- Simple value assignment based on condition
+- Cleaner alternative to short if-else blocks
 
-Notes:
+**Notes:**
 
-Use only for simple conditions<br>
-Avoid chaining for readability
+- Use only for simple conditions
+- Avoid chaining for readability
+
+---
 
 ## Boolean Evaluation in Conditionals
 **Purpose:** Understand how values are evaluated as True or False.
@@ -143,17 +153,19 @@ if []:
 else:
     print("empty")
 ```
-Output:
+**Output:**
 
 ```text
 empty
 ```
-Use cases:
+**Use cases:**
 
-Checking empty lists, strings, or collections<br>
-Simplifying conditional expressions
+- Checking empty lists, strings, or collections
+- Simplifying conditional expressions
 
-Notes:
+**Notes:**
 
-Empty values evaluate to False<br>
-Non-empty values evaluate to True
+- Empty values evaluate to False
+- Non-empty values evaluate to True
+
+---
