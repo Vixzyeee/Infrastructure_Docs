@@ -2,6 +2,7 @@
 
 ## What is this?
 Conditional keywords are used to make decisions in Python.
+
 They control which block of code is executed based on conditions.
 
 ---
