@@ -21,11 +21,6 @@ if x > 5:
 ```text
 greater than five
 ```
-**Use cases:**
-
-- Basic decision making
-- Input validation
-- Feature toggles
 
 **Notes:**
 
@@ -50,10 +45,6 @@ elif x < 15:
 ```text
 medium
 ```
-**Use cases:**
-
-- Handling multiple decision branches
-- Replacing nested if statements
 
 **Notes:**
 
@@ -81,10 +72,6 @@ else:
 ```text
 large
 ```
-**Use cases:**
-
-- Default or fallback behavior
-- Handling unexpected or remaining cases
 
 **Notes:**
 
