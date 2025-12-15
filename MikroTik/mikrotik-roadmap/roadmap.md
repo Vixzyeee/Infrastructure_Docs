@@ -1,6 +1,7 @@
 # MikroTik Learning Roadmap
 
 This roadmap is designed for long-term learning and real-world usage of MikroTik RouterOS.
+
 It is structured from fundamentals to advanced operation, automation, and troubleshooting.
 
 The goal is not certification-only knowledge, but practical engineering understanding.
