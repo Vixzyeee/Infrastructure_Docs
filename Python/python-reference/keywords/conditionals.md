@@ -16,6 +16,7 @@ x = 10
 if x > 5:
     print("greater than five")
 ```
+
 **Output:**
 
 ```text
@@ -40,6 +41,7 @@ if x < 5:
 elif x < 15:
     print("medium")
 ```
+
 **Output:**
 
 ```text
@@ -67,6 +69,7 @@ elif x < 8:
 else:
     print("large")
 ```
+
 **Output:**
 
 ```text
