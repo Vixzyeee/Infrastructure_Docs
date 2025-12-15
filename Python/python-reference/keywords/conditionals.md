@@ -1,7 +1,7 @@
 # Conditional and Decision Making Keywords
 
 ## What is this?
-Conditional keywords are used to make decisions in Python.<br>
+Conditional keywords are used to make decisions in Python.
 They control which block of code is executed based on conditions.
 
 ---
