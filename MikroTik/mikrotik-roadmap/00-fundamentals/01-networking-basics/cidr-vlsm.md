@@ -1,8 +1,7 @@
 # CIDR and VLSM
 
 ## What is this
-CIDR removes class-based IP limitations.
-
+CIDR removes class-based IP limitations.<br>
 VLSM allows variable subnet sizes based on need.
 
 ## Why it matters in MikroTik
