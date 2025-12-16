@@ -49,7 +49,7 @@ print(result)
 **Notes:**
 
 - Ends function execution immediately
-- Can return a value or nothing (None)
+- Can return a value or nothing `None`
 
 ---
 
