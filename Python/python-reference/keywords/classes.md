@@ -1,7 +1,7 @@
 # Class Keywords
 
 ## What is this?
-Class keyword is used to define a new class in Python.
+Class keywords are used to define a new class in Python.
 
 ---
 
