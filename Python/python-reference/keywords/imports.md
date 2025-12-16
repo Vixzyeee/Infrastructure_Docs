@@ -1,8 +1,7 @@
 # Import Keywords
 
 ## What is this?
-Import keywords are used to include modules or objects
-from other modules into the current Python file.
+Import keywords are used to include modules or objects from other modules into the current Python file.
 
 ---
 
