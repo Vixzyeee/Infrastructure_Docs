@@ -12,6 +12,8 @@ in Python.
 ```python
 def greet():
     print("hello")
+
+greet()
 ```
 
 **Output:**
