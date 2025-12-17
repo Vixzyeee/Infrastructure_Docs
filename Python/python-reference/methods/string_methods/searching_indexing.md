@@ -204,7 +204,7 @@ print(text.count("a"))
 | `rfind`  | Returns `-1`        | Right → Left |
 | `index`  | Raises `ValueError` | Left → Right |
 | `rindex` | Raises `ValueError` | Right → Left |
-| `count`  | Returns 0           | N/A |
+| `count`  | Returns `0`         | N/A |
 
 ## Best Practices
 - Use `find()` / `rfind()` when absence is a valid outcome.
