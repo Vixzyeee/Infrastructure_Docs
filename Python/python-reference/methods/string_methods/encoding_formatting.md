@@ -17,7 +17,7 @@ str.encode(encoding="utf-8", errors="strict")
 ```
 
 **Parameters:**
-- `encoding` (optional) – text encoding to use (default: "`utf-8`")
+- `encoding` (optional) – text encoding to use (default: `utf-8`)
 - `errors` (optional) – error handling scheme
 
 **Return Value:**
@@ -38,7 +38,7 @@ b'hello'
 **Notes:**
 - Strings (`str`) and bytes (`bytes`) are different types in Python.
 - Encoding converts text into bytes for storage or transmission.
-- Common encodings include "`utf-8`", "`ascii`", and "`latin-1`".
+- Common encodings include `utf-8`, `ascii`, and `latin-1`.
 - Encoding errors only occur when the target encoding cannot represent certain characters.
 
 ---
@@ -49,10 +49,10 @@ b'hello'
 - Controls how encoding errors are handled.
 
 **Common Error Modes:**
-- "`strict`" – raises a `UnicodeEncodeError`
-- "`ignore`" – skips characters that cannot be encoded
-- "`replace`" – replaces invalid characters with `?`
-- "backslashreplace" – uses python escape sequences
+- `strict` – raises a `UnicodeEncodeError`
+- `ignore` – skips characters that cannot be encoded
+- `replace` – replaces invalid characters with `?`
+- `backslashreplace` – uses python escape sequences
 
 **Example:**
 ```python
@@ -66,9 +66,9 @@ b'caf?'
 ```
 
 **Notes:**
-- "`ignore`" may silently lose data.
-- "`replace`" is safer for logging and debugging.
-- "`strict`" is recommended when data integrity matters.
+- `ignore` may silently lose data.
+- `replace` is safer for logging and debugging.
+- `strict` is recommended when data integrity matters.
 - Decoding is the reverse operation and is performed on `bytes`, not `str`.
 
 ---
@@ -119,6 +119,6 @@ a   b   c
 ## Best Practices
 - Encode strings only at system boundaries (files, network, APIs).
 - Use UTF-8 unless you have a strong reason not to.
-- Avoid "`ignore`" unless data loss is acceptable.
+- Avoid `ignore` unless data loss is acceptable.
 - Use `expandtabs()` only for presentation, not data storage.
 
