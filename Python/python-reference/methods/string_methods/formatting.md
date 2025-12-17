@@ -107,7 +107,7 @@ Name: Pito, Role: Backend
 **Notes:**
 - Useful when formatting from dynamic data sources.
 - Avoids unpacking dictionaries into keyword arguments.
-- Raises KeyError if a placeholder is missing.
+- Raises `KeyError` if a placeholder is missing.
 
 ## Comparison with f-strings
 
