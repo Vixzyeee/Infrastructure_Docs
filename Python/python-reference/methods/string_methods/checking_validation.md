@@ -298,6 +298,10 @@ print(text.isupper())
 True
 ```
 
+**Notes:**
+- Returns `False` if there are no alphabetic characters in the string.
+- Non-alphabetic characters are ignored.
+
 ---
 
 ## `istitle()`
@@ -358,6 +362,12 @@ print(text.isspace())
 ```text
 True
 ```
+
+**Notes:**
+- Returns `False` if the string is empty.
+- Includes spaces, tabs, and newline characters.
+
+---
 
 ## `isprintable()`
 
