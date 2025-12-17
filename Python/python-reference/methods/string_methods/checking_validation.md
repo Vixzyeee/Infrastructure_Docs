@@ -21,10 +21,10 @@ str.isalnum()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns True if all characters are alphanumeric and the string is not empty.
+- Returns True if all characters are alphanumeric and the string is not empty.
 
 **Example:**
 ```python
@@ -54,10 +54,10 @@ str.isalpha()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns True if all characters are letters and the string is not empty.
+- Returns True if all characters are letters and the string is not empty.
 
 **Example:**
 ```python
@@ -86,10 +86,10 @@ str.isascii()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns True if all characters are within the ASCII range.
+- Returns True if all characters are within the ASCII range.
 
 **Example:**
 ```python
@@ -118,10 +118,10 @@ str.isdecimal()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns True if all characters are decimal digits.
+- Returns True if all characters are decimal digits.
 
 **Example:**
 ```python
@@ -151,10 +151,10 @@ str.isdigit()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns True if all characters are digits.
+- Returns True if all characters are digits.
 
 **Example:**
 ```python
@@ -184,10 +184,10 @@ str.isnumeric()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns True if all characters are numeric.
+- Returns True if all characters are numeric.
 
 **Example:**
 ```python
@@ -217,10 +217,10 @@ str.isidentifier()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns True if the string is a valid identifier.
+- Returns True if the string is a valid identifier.
 
 **Example:**
 ```python
@@ -250,10 +250,10 @@ str.islower()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns True if all letters are lowercase.
+- Returns True if all letters are lowercase.
 
 **Example:**
 ```python
@@ -282,10 +282,10 @@ str.isupper()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns True if all letters are uppercase.
+- Returns True if all letters are uppercase.
 
 **Example:**
 ```python
@@ -315,10 +315,10 @@ str.istitle()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns True if each word starts with an uppercase letter.
+- Returns True if each word starts with an uppercase letter.
 
 **Example:**
 ```python
@@ -347,10 +347,10 @@ str.isspace()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns True if the string contains only whitespace.
+- Returns True if the string contains only whitespace.
 
 **Example:**
 ```python
@@ -380,10 +380,10 @@ str.isprintable()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns True if all characters can be printed.
+- Returns True if all characters can be printed.
 
 **Example:**
 ```python
