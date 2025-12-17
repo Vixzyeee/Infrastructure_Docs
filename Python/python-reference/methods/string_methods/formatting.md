@@ -71,10 +71,10 @@ Pi: 3.14
 **Notes:**
 - Format specifiers follow the syntax `{value:format}`.
 - Common specifiers include:
-  - .2f – floating-point precision
-  - >10 – right alignment with width
-  - <10 – left alignment with width
-  - ^10 – center alignment
+  - `.2f` – floating-point precision
+  - `>10` – right alignment with width
+  - `<10` – left alignment with width
+  - `^10` – center alignment
 
 ## `format_map()`
 
