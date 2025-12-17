@@ -17,10 +17,10 @@ str.lower()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns a new string with all characters converted to lowercase.
+- Returns a new string with all characters converted to lowercase.
 
 **Example:**
 ```python
@@ -51,10 +51,10 @@ str.upper()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns a new string with all characters converted to uppercase.
+- Returns a new string with all characters converted to uppercase.
 
 **Example:**
 ```python
@@ -84,10 +84,10 @@ str.capitalize()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns a new string with the first character capitalized.
+- Returns a new string with the first character capitalized.
 
 **Example:**
 ```python
@@ -117,10 +117,10 @@ str.title()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns a new string with each word capitalized.
+- Returns a new string with each word capitalized.
 
 **Example:**
 ```python
@@ -151,10 +151,10 @@ str.swapcase()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns a new string with swapped character cases.
+- Returns a new string with swapped character cases.
 
 **Example:**
 ```python
@@ -184,10 +184,10 @@ str.casefold()
 ```
 
 **Parameters:**
-None
+- None
 
 **Return Value:**
-Returns a new string optimized for case-insensitive comparison.
+- Returns a new string optimized for case-insensitive comparison.
 
 **Example:**
 ```python
