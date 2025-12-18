@@ -53,7 +53,7 @@ print(numbers)
 ```
 
 **Notes:**
-- Raises IndexError if the list is empty or index is out of range.
+- Raises `IndexError` if the list is empty or index is out of range.
 - Commonly used when treating a list like a stack.
 - If no index is provided, the last element is removed.
 
@@ -89,7 +89,7 @@ print(numbers)
 
 **Notes:**
 - Only removes the first matching value.
-- Raises ValueError if the value is not found.
+- Raises `ValueError` if the value is not found.
 - Does not return the removed element.
 
 ---
