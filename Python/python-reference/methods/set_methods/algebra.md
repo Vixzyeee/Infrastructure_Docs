@@ -224,7 +224,7 @@ print(a)
 
 | Operation            | Method                   | Operator |
 |----------------------|:-------------------------|----------|
-| Union                | `union()`                |          |`|`|
+| Union                | `union()`                | `\|`     |
 | Intersection         | `intersection()`         | `&`      |
 | Difference           | `difference()`           | `-`      |
 | Symmetric Difference | `symmetric_difference()` | `^`      |
