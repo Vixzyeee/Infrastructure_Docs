@@ -222,12 +222,12 @@ print(a)
 
 ## Method vs Operator Summary
 
-| Operation            | Method                    | Operator |
-|----------------------|:--------------------------|---------|
-| Union                | `union()`                 | `|`      |
-| Intersection         | `intersection()`          | `&`     |
-| Difference           | `difference()`            | `-`     |
-| Symmetric Difference | `symmetric_difference()`  | `^`     |
+| Operation            | Method                   | Operator |
+|----------------------|:-------------------------|----------|
+| Union                | `union()`                |          |`|`|
+| Intersection         | `intersection()`         | `&`      |
+| Difference           | `difference()`           | `-`      |
+| Symmetric Difference | `symmetric_difference()` | `^`      |
 
 ## Choosing Between Method and Operator
 
