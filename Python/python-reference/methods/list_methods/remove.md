@@ -21,7 +21,7 @@ list.pop([index])
 **Parameters:**
 - `index` (optional) – position of the element to remove
 
-**Return Value:**
+_**Return Value:**
 - Returns the removed element
 
 **Example:**
@@ -55,7 +55,7 @@ print(numbers)
 **Notes:**
 - Raises `IndexError` if the list is empty or index is out of range.
 - Commonly used when treating a list like a stack.
-- If no index is provided, the last element is removed.
+- If no index is provided, the last element is removed._
 
 ---
 
