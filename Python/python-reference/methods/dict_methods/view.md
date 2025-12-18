@@ -20,7 +20,7 @@ They reflect the **current state** of the dictionary at all times.
 
 ## Common View Types
 
-### `dict_keys`
+## `dict_keys`
 
 - Returned by `dict.keys()`
 - Represents a dynamic view of dictionary keys
