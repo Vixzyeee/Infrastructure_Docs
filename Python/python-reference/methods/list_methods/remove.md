@@ -21,7 +21,7 @@ list.pop([index])
 **Parameters:**
 - `index` (optional) – position of the element to remove
 
-_**Return Value:**
+**Return Value:**
 - Returns the removed element
 
 **Example:**
