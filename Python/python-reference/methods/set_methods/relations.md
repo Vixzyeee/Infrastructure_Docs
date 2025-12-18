@@ -1,245 +1,148 @@
-# Set Algebra Methods (`set`)
+# Set Relations & Comparison (`set`)
 
-This section covers **set algebra operations**.
+This section covers methods used to **compare relationships between sets**.
 
-These methods are the **core strength of sets** and distinguish them from lists and dictionaries.
+All methods here **return boolean values** and **do not modify** the original sets.
 
-Set algebra is commonly used for:
-- Comparing collections
-- Filtering data
-- Permission and role checks
-- Logical operations on groups of values
+These methods are commonly used for:
+- Permission checks
+- Role validation
+- Feature flag logic
+- Access control rules
 
 ---
 
-## `union()`
+## `issubset()`
 
 ### Description
-- Returns a new set containing **all unique elements** from both sets.
+- Checks whether all elements of a set exist in another set.
 
 ### Syntax
 ```python
-set.union(other)
+set.issubset(other)
 ```
 
 **Return Value:**
-- Returns a new set
+- Returns `True` or `False`
 
 **Example:**
 ```python
-a = {1, 2, 3}
-b = {3, 4, 5}
+required = {"read", "write"}
+user_perms = {"read", "write", "delete"}
 
-result = a.union(b)
-print(result)
+print(required.issubset(user_perms))
 ```
 
 **Output:**
 ```text
-{1, 2, 3, 4, 5}
+True
 ```
 
 **Notes:**
-- Does not modify the original sets
-- Equivalent operator: `|`
+- Order does not matter
+- Equivalent operator: `<=`
+- Commonly used to verify required permissions
 
 ---
 
-## `intersection()`
+## `issuperset()`
 
 ### Description
-- Returns a new set containing elements **common to both sets**.
+- Checks whether a set contains all elements of another set.
 
 ### Syntax
 ```python
-set.intersection(other)
+set.issuperset(other)
 ```
 
 **Return Value:**
-- Returns a new set
+- Returns `True` or `False`
 
 **Example:**
 ```python
-a = {1, 2, 3}
-b = {2, 3, 4}
+user_perms = {"read", "write", "delete"}
+required = {"read", "write"}
 
-result = a.intersection(b)
-print(result)
+print(user_perms.issuperset(required))
 ```
 
 **Output:**
 ```text
-{2, 3}
+True
 ```
 
 **Notes:**
-- Useful for finding overlaps
-- Equivalent operator: `&`
+- Logical inverse of `issubset()`
+- Equivalent operator: `>=`
 
 ---
 
-## `difference()`
+## `isdisjoint()`
 
 ### Description
-- Returns a new set containing elements that exist in the first set but `not` in the other.
+- Checks whether two sets have **no elements in common**.
 
 ### Syntax
 ```python
-set.difference(other)
+set.isdisjoint(other)
 ```
 
 **Return Value:**
-- Returns a new set
+- Returns `True` or `False`
 
 **Example:**
 ```python
-a = {1, 2, 3}
-b = {2, 4}
+admin_roles = {"admin", "root"}
+guest_roles = {"guest", "anonymous"}
 
-result = a.difference(b)
-print(result)
+print(admin_roles.isdisjoint(guest_roles))
 ```
 
 **Output:**
 ```text
-{1, 3}
+True
 ```
 
 **Notes:**
-- Order matters (`a - b` ≠ `b - a`)
-- Equivalent operator: `-`
-- This operation is not symmetric
+- Returns `True` when there is no overlap
+- Useful for conflict detection
+- Faster and clearer than manual intersection checks
+- Returns immediately on first match
 
 ---
-
-## `symmetric_difference()`
-
-### Description
-- Returns a new set containing elements that are in **either set, but not both**.
-
-### Syntax
-```python
-set.symmetric_difference(other)
-```
-
-**Return Value:**
-- Returns a new set
-
-**Example:**
-```python
-a = {1, 2, 3}
-b = {3, 4, 5}
-
-result = a.symmetric_difference(b)
-print(result)
-```
-
-**Output:**
-```text
-{1, 2, 4, 5}
-```
-
-**Notes:**
-- Excludes common elements
-- Equivalent operator: `^`
-
----
-
-## In-Place Algebra Methods
-These methods **modify the set directly** instead of returning a new one.
-
-## `update()` (Union In-Place)
-```python
-set.update(other)
-```
-
-**Example:**
-```python
-a = {1, 2}
-a.update({2, 3})
-
-print(a)
-```
-
-**Output:**
-```text
-{1, 2, 3}
-```
-
-## `intersection_update()`
-```python
-set.intersection_update(other)
-```
-
-**Example:**
-```python
-a = {1, 2, 3}
-a.intersection_update({2, 3, 4})
-
-print(a)
-```
-
-**Output:**
-```text
-{2, 3}
-```
-
-## `difference_update()`
-```python
-set.difference_update(other)
-```
-
-**Example:**
-```python
-a = {1, 2, 3}
-a.difference_update({2})
-
-print(a)
-```
-
-**Output:**
-```text
-{1, 3}
-```
-
-## `symmetric_difference_update()`
-```python
-set.symmetric_difference_update(other)
-```
-
-**Example:**
-```python
-a = {1, 2, 3}
-a.symmetric_difference_update({3, 4})
-
-print(a)
-```
-
-**Output:**
-```text
-{1, 2, 4}
-```
 
 ## Method vs Operator Summary
 
-| Operation            | Method                   | Operator |
-|----------------------|:-------------------------|----------|
-| Union                | `union()`                | `\|`     |
-| Intersection         | `intersection()`         | `&`      |
-| Difference           | `difference()`           | `-`      |
-| Symmetric Difference | `symmetric_difference()` | `^`      |
+| Relationship  | Method         | Operator |
+|---------------|:---------------|----------|
+| Subset        | `issubset()`   | `<=`     |
+| Superset      | `issuperset()` | `>=`     |
 
-## Choosing Between Method and Operator
+## Common Mistakes
 
-- Use **methods** for clarity and readability
-- Use **operators** for concise expressions
-- Prefer methods in documentation and shared codebases
+**❌ Confusing subset direction**
+```python
+a.issubset(b)
+```
+
+Means:
+```text
+all elements of a are in b
+```
+Not the other way around.
+
+**❌ Using intersection for boolean checks**
+```python
+a.intersection(b)
+```
+Use `isdisjoint()` or `issubset()` instead when you only need a boolean result.
 
 ---
 
 ## Summary
 
-- Set algebra operations return **new sets** by default
-- In-place variants modify the original set
-- Operators are shorthand equivalents of methods
-- These operations are the primary reason to use sets
+- Relation methods return **boolean values**
+- They do **not modify** sets
+- Use `issubset()` to validate requirements
+- Use `issuperset()` to confirm ownership
+- Use `isdisjoint()` to detect conflicts
