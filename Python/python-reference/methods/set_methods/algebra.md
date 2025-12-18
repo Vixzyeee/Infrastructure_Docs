@@ -106,7 +106,7 @@ print(result)
 ```
 
 **Notes:**
-- Order matters (`a - b` ≠ `b - a`)
+- Order matters (`a - b` != `b - a`)
 - Equivalent operator: `-`
 - This operation is not symmetric
 
