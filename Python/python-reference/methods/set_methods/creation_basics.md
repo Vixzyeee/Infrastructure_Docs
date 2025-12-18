@@ -101,7 +101,7 @@ s = {"a", "b", "c"}
 print(s)
 ```
 
-**Possible Output:**
+**Output:**
 ```text
 {'b', 'a', 'c'}
 ```
