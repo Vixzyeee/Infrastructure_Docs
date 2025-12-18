@@ -26,7 +26,7 @@ Sets are commonly used for:
 
 ### Using `set()`
 
-##### Syntax
+#### Syntax
 ```python
 set(iterable)
 ```
