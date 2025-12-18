@@ -55,7 +55,7 @@ print(numbers)
 **Notes:**
 - Raises `IndexError` if the list is empty or index is out of range.
 - Commonly used when treating a list like a stack.
-- If no index is provided, the last element is removed._
+- If no index is provided, the last element is removed.
 
 ---
 
