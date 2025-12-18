@@ -95,4 +95,4 @@ print(count)
 
 - Use `index()` when you need the position of an element.
 - Use `count()` when you need to know how often a value appears.
-- Use in before `index()` when the value may not exist.
+- Use `in` before `index()` when the value may not exist.
