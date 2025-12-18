@@ -2,7 +2,7 @@
 
 Methods in this section are used to **remove keys and values** from a dictionary.
 
-All methods documented here **modify the dictionary in place**.
+All methods documented here **modify the dictionary in place**.  
 Some methods return removed data, others return `None`.
 
 ---
