@@ -138,11 +138,11 @@ Syntax errors occur **before** the interpreter executes code.
 
 ## Common Mistakes
 
-**❌ Treating Syntax Errors Like Runtime Errors**
+**❌ Treating Syntax Errors Like Runtime Errors**  
 Syntax errors are not bugs in logic.  
 They are violations of the language grammar.
 
-**✅ Fix the Code**
+**✅ Fix the Code**  
 The only solution is to **correct the source code**.
 
 ---
