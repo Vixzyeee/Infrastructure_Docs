@@ -65,7 +65,7 @@ print(eval("1 + 2"))
 - Input must be trusted
 - Almost never appropriate in production
 - Namespace control does not make it safe
-- Evaluating expressions still allows function calls and attribute access.
+- Evaluating expressions still allows function calls and attribute access
 
 ---
 
@@ -175,7 +175,7 @@ print(x)
 - They bypass normal code structure and safety
 - Readability, predictability, and security suffer
 - Use only when no safer alternative exists
-- These functions intentionally break normal reasoning guarantees in Python code.
+- These functions intentionally break normal reasoning guarantees in Python code
 
 ---
 
@@ -184,6 +184,6 @@ print(x)
 - `exec` executes statements
 - `compile` produces code objects
 - `breakpoint` hooks into debugging tools
-- If you are unsure whether you need these functions, you probably do not.
+- If you are unsure whether you need these functions, you probably do not
 
 These functions define **Python’s runtime execution surface**, not safe application APIs.
