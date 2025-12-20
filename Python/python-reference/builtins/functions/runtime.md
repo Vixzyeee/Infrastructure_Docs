@@ -30,7 +30,7 @@ Python allows code to be:
 - compiled explicitly
 - executed at runtime
 
-These built-ins expose that capability directly.
+These built-ins expose that capability directly.  
 They exist for **interpreter control and tooling**, not application logic.
 
 ---
