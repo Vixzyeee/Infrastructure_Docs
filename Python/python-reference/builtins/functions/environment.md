@@ -92,7 +92,7 @@ quit()
 
 **Output:**
 ```text
-(SystemExit)
+(interpreter exits)
 ```
 
 **Notes:**
