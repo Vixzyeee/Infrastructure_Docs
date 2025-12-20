@@ -60,7 +60,6 @@ print("z" not in "cat")
 ```
 
 **Output:**
-
 ```text
 True
 True
@@ -93,7 +92,6 @@ print(a is c)
 ```
 
 **Output:**
-
 ```text
 True
 False
@@ -167,16 +165,28 @@ False
 
 ## Correct Use of `is`
 
+### Description
+Use identity comparison when checking against singleton objects.
+
 ### Recommended Pattern
 ```python
-if value is None:
-    ...
+value = None
+
+print(value is None)
+print(value == None)
+```
+
+**Output:**
+```text
+True
+True
 ```
 
 **Notes:**
-- `None` is a singleton
-- Identity comparison is the correct and intended usage
-- Do not replace this with `== None`
+- `None` is a singleton object
+- Identity comparison (`is None`) is the intended and idiomatic usage
+- `== None` may work but relies on equality semantics, not identity
+- Always prefer `is None` for clarity and correctness
 
 ---
 
@@ -198,6 +208,7 @@ False
 - This behavior is an implementation detail
 - Integer caching is not guaranteed across values or implementations
 - Never rely on this behavior
+- Results may differ across Python versions and implementations
 
 ---
 
