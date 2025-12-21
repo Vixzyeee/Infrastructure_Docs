@@ -11,6 +11,8 @@ DO NOT RUN.
 a = 10
 b = a
 a = a + 5
+
+print(a)
 print(b)
 ```
 
@@ -49,7 +51,9 @@ DO NOT RUN.
 ```python
 x = 100
 y = x
+
 del x
+
 print(y)
 ```
 

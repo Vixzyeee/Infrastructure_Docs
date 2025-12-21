@@ -6,8 +6,8 @@ a = 10
 b = a
 a = a + 5
 
-print(b)
 print(a)
+print(b)
 
 # Case 2: Deleting a name does not delete the object
 x = 100
