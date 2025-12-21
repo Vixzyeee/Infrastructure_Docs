@@ -1,10 +1,8 @@
 # variables.py
 # This file demonstrates basic variable assignment in Python
 
-name = "Pito"
-age = 21
-is_active = True
-
-print(name)
-print(age)
-print(is_active)
+# Case 1: Basic binding
+a = 10
+b = a
+a = a + 5
+print(b)
