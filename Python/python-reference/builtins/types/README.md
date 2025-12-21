@@ -18,7 +18,7 @@ Built-ins are:
 - types
 - constants
 - internal helpers  
-  Objects exposed for interpreter and runtime coordination, not public APIs
+  Objects exposed for interpreter and runtime coordination, not intended as public APIs
 
 that exist in the global namespace without requiring imports.
 
