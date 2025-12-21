@@ -12,7 +12,6 @@ print(b)
 # Case 2: Deleting a name does not delete the object
 x = 100
 y = x
-
 del x
-
 print(y)
+

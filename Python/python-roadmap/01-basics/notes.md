@@ -2,10 +2,10 @@
 
 ---
 
-## variables.py – Soal 1: Rebinding variable
+## variables.py – Question 1: Variable rebinding
 
-### Soal
-JANGAN RUN.
+### Question  
+DO NOT RUN.
 
 ```python
 a = 10
@@ -14,37 +14,37 @@ a = a + 5
 print(b)
 ```
 
-### Prediksi Output
+### Predicted Output
 ```text
 10
 ```
 
-### Jawaban
+### Answer
 
 **Output:**
 ```text
 10
 ```
 
-`b` tidak berubah karena nama `b` tetap menunjuk ke object 10
+`b` does not change because the name `b` still points to the object `10`.
 
-### Urutan Kejadian (Mental Model)
+### Sequence of Events (Mental Model)
 
-1. Object 10 dibuat, `a` menunjuk ke object 10
-2. `b` menunjuk ke object yang sama
-3. Ekspresi `a + 5` membuat object 15
-4. Nama `a` di-rebind ke object 15
-5. `b` masih menunjuk ke object 10
+1. Object 10 is created, and the name a is bound to it
+2. The name b is bound to the same object
+3. The expression a + 5 creates a new object 15
+4. The name a is rebound to the object 15
+5. The name b still points to the object 10
 
-## Kesimpulan
-Assignment di Python mengubah hubungan **nama** → **object**, bukan object-nya.
+## Conclusion
+Assignment in Python changes the name → object relationship, not the object itself.
 
 ---
 
-## variables.py – Soal 2: Deleting name vs deleting object
+## variables.py – Question 2: Deleting a name vs deleting an object
 
-### Soal
-JANGAN RUN.
+### Question
+DO NOT RUN.
 
 ```python
 x = 100
@@ -53,27 +53,207 @@ del x
 print(y)
 ```
 
-### Prediksi Output
+### Predicted Output
 ```text
 100
 ```
 
-### Jawaban
+### Answer
 
 **Output:**
 ```text
 100
 ```
 
-`del x` menghapus nama `x`, bukan object yang ditunjuk
+`del x` removes the name `x`, not the object it was pointing to.
 
-### Urutan Kejadian (Mental Model)
+### Sequence of Events (Mental Model)
 
-1. Object 100 dibuat, `x` menunjuk ke object 100
-2. `y` menunjuk ke object yang sama
-3. Nama `x` dihapus
-4. Object 100 masih hidup karena masih ditunjuk oleh `y`
-5. `print(y)` masih valid
+1. Object `100` is created, and the name `x` is bound to it
+2. The name `y` is bound to the same object
+3. The name `x` is deleted
+4. The object `100` is still alive because it is still referenced by `y`
+5. `print(y)` is still valid
 
-## Kesimpulan
-`del` menghapus **nama**, bukan **object**.
+## Conclusion
+`del` removes a **name**, not an **object**.
+
+---
+
+## XXX.py – Question X: XXX XXX
+
+### Question 
+DO NOT RUN.
+
+```python
+XXXX
+```
+
+### Predicted Output
+```text
+XXX
+```
+
+### Answer
+
+**Output:**
+```text
+XX
+```
+
+XXXX
+
+### Sequence of Events (Mental Model)
+
+1. XXXXX
+2. XXXXX
+3. XXXXX
+4. XXXXX
+5. XXXXX
+
+## Conclusion
+XXXXXXXXXXXXXXX
+
+---
+
+## XXX.py – Question X: XXX XXX
+
+### Question 
+DO NOT RUN.
+
+```python
+XXXX
+```
+
+### Predicted Output
+```text
+XXX
+```
+
+### Answer
+
+**Output:**
+```text
+XX
+```
+
+XXXX
+
+### Sequence of Events (Mental Model)
+
+1. XXXXX
+2. XXXXX
+3. XXXXX
+4. XXXXX
+5. XXXXX
+
+## Conclusion
+XXXXXXXXXXXXXXX
+
+---
+
+## XXX.py – Question X: XXX XXX
+
+### Question 
+DO NOT RUN.
+
+```python
+XXXX
+```
+
+### Predicted Output
+```text
+XXX
+```
+
+### Answer
+
+**Output:**
+```text
+XX
+```
+
+XXXX
+
+### Sequence of Events (Mental Model)
+
+1. XXXXX
+2. XXXXX
+3. XXXXX
+4. XXXXX
+5. XXXXX
+
+## Conclusion
+XXXXXXXXXXXXXXX
+
+---
+
+## XXX.py – Question X: XXX XXX
+
+### Question 
+DO NOT RUN.
+
+```python
+XXXX
+```
+
+### Predicted Output
+```text
+XXX
+```
+
+### Answer
+
+**Output:**
+```text
+XX
+```
+
+XXXX
+
+### Sequence of Events (Mental Model)
+
+1. XXXXX
+2. XXXXX
+3. XXXXX
+4. XXXXX
+5. XXXXX
+
+## Conclusion
+XXXXXXXXXXXXXXX
+
+---
+
+## XXX.py – Question X: XXX XXX
+
+### Question 
+DO NOT RUN.
+
+```python
+XXXX
+```
+
+### Predicted Output
+```text
+XXX
+```
+
+### Answer
+
+**Output:**
+```text
+XX
+```
+
+XXXX
+
+### Sequence of Events (Mental Model)
+
+1. XXXXX
+2. XXXXX
+3. XXXXX
+4. XXXXX
+5. XXXXX
+
+## Conclusion
+XXXXXXXXXXXXXXX
