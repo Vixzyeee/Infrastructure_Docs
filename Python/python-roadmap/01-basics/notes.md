@@ -80,39 +80,47 @@ print(y)
 
 ---
 
-## XXX.py – Question X: XXX XXX
+## variables.py – Question 3: Expression rebinding
 
 ### Question 
 DO NOT RUN.
 
 ```python
-XXXX
+x = 1
+y = x
+x = x + 1
+
+print(x)
+print(y)
 ```
 
 ### Predicted Output
 ```text
-XXX
+2
+1
 ```
 
 ### Answer
 
 **Output:**
 ```text
-XX
+2
+1
 ```
 
-XXXX
+`y` does not change because `x + 1` creates a new object, and assignment only rebinds the name `x`; the name `y` still points to the original object `1`.
 
 ### Sequence of Events (Mental Model)
 
-1. XXXXX
-2. XXXXX
-3. XXXXX
-4. XXXXX
-5. XXXXX
+1. Object `1` is created, and the name `x` is bound to it
+2. The name `y` is bound to the same object `1`
+3. The expression `x + 1` creates a new object `2`
+4. The name `x` is rebound to the object `2`
+5. The name `y` still points to the object `1`
 
 ## Conclusion
-XXXXXXXXXXXXXXX
+An expression like `x + 1` creates a new object; assignment rebinds the name.  
+No object is modified in place.
 
 ---
 
