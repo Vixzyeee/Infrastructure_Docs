@@ -59,13 +59,13 @@ Each file focuses on **one conceptual layer** of the module.
 Recommended order:
 1. **`core.md`**  
    Understand how the RNG works and why `random` is deterministic.
-2. **`sequences.md`**
+2. **`sequences.md`**  
    Learn how randomness is applied to lists, ranges, and other sequences.
-3. **`reproducibility.md`**
+3. **`reproducibility.md`**  
    Internalize how seeds, call order, and global state affect results.
-4. **`distributions.md`**
+4. **`distributions.md`**  
    Explore available probability distributions and when to use them.
-5. **`comparisons.md`**
+5. **`comparisons.md`**  
    Learn when not to use `random`, especially in security contexts.
 
 Skipping `core.md` often leads to misuse later.
