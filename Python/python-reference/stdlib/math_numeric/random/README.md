@@ -115,6 +115,7 @@ It prioritizes **conceptual correctness** over exhaustive API listings.
 ## Summary
 
 This directory exists to answer one question:  
+
 “How do I use Python’s `random` module correctly without lying to myself?”
 
 Misunderstanding `random` is a common source of subtle bugs.
