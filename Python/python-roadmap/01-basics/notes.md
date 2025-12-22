@@ -1,4 +1,4 @@
-> This file documents predicted behavior and mental models.
+> This file documents predicted behavior and mental models.  
 > Code snippets are intentionally not executed.
 
 # Answers – 01-basics
