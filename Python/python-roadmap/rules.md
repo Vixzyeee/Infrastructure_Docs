@@ -6,3 +6,4 @@
 4. Virtual environments must never be committed to git
 5. Core Python fundamentals must be completed before automation or frameworks
 6. This roadmap focuses on understanding, not memorization
+7. Every Answer section must include explicit output

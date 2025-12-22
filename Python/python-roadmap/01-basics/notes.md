@@ -1,3 +1,6 @@
+> This file documents predicted behavior and mental models.
+> Code snippets are intentionally not executed.
+
 # Answers – 01-basics
 
 ---
@@ -160,7 +163,8 @@ Name: Alice, Age: 20
 Name: Alice, Age: 20
 ```
 
-String concatenation (`+`) requires all operands to be strings
+String concatenation (`+`) requires all operands to be strings.  
+f-strings perform implicit conversion and improve readability.
 
 ### Sequence of Events (Mental Model)
 
@@ -248,7 +252,7 @@ The two `id()` values are different because `x + 1` creates a new object; the or
 2. `id(x)` returns the identity of that object
 3. The expression `x + 1` creates a new object `11`
 4. The name `x` is rebound to the new object
-5. The original object `10` remains unchanged and remains unchanged and unreferenced
+5. The original object `10` remains unchanged and unreferenced
 
 ## Conclusion
 `int` objects are immutable; operations create new objects, and assignment rebinds names instead of modifying objects in place.
