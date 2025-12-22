@@ -1,3 +1,8 @@
+# NOTE:
+# This file is intended for reading alongside notes.md
+# Running this file executes ALL cases sequentially
+# Some cases expect user input.
+
 # print_input.py
 # Basic input and output example
 

@@ -1,3 +1,7 @@
+# NOTE:
+# This file is intended for reading alongside notes.md
+# Running this file executes ALL cases sequentially
+
 # data_types.py
 # Demonstration of basic Python data types
 

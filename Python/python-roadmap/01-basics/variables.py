@@ -1,3 +1,7 @@
+# NOTE:
+# This file is intended for reading alongside notes.md
+# Running this file executes ALL cases sequentially
+
 # variables.py
 # This file demonstrates basic variable assignment in Python
 

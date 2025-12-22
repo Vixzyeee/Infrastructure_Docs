@@ -1,5 +1,6 @@
 > This file documents predicted behavior and mental models.  
-> Code snippets are intentionally not executed.
+> Code snippets are intentionally not executed.  
+> Running the corresponding `.py` files will execute all cases sequentially.
 
 # Answers – 01-basics
 
