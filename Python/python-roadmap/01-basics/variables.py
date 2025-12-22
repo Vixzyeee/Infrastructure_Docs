@@ -24,3 +24,13 @@ x = x + 1
 
 print(x)
 print(y)
+
+# Case 4: String concatenation vs f-string
+name = "Alice"
+age = 20
+
+message_concat = "Name: " + name + ", Age: " + str(age)
+message_fstring = f"Name: {name}, Age: {age}"
+
+print(message_concat)
+print(message_fstring)
