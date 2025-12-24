@@ -4,7 +4,6 @@ This section introduces control flow in Python.
 
 Topics covered:
 - Conditional statements (if / else)
-- Loops (for / while)
 - Truthy and falsy values
 
 Goal:
